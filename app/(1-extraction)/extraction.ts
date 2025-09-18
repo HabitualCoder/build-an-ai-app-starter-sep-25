@@ -1,4 +1,5 @@
-import "dotenv/config";
+import dotenvFlow from 'dotenv-flow';
+dotenvFlow.config();
 import fs from "fs";
 
 // import essay
